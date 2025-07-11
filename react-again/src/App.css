@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* my css  */
+
+.header{
+
+    background-color: #076c87;
+    height: 100px;
+    width: 100%;
+}
+
+.header-list{
+  margin-left: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    list-style: none;
+    gap: 16px;
+    margin-right: 40px;
+    
+    
+}
+
+.header-list li{
+  margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    
+}
+.header-list li:hover{
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: 0.1s;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #076c87;
+    margin-top: 100px;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    
+}
+.footer-span{
+  font-size: 15px;
+  position: absolute;
+  right: 20px;
+  color: white  ;
+  margin-top: 30px;
+  
+   
+}
+.hero-img{
+margin-top: 50px;
+margin-left: 40%;
+  width: 20%;
+}
