@@ -9,6 +9,7 @@ import Loop from './component/Loop';
 import LoginStatus from './component/LoginStatus';
 import TernaryIfElse from './component/TernaryIfElse';
 import LogicalAndAnd from './component/LogicalAndAnd';
+import Props from './component/Props';
 
 
 
@@ -23,6 +24,8 @@ function App() {
     <LoginStatus />
      <TernaryIfElse />
     <LogicalAndAnd />
+
+    <Props title ="Props" from="Parent" />
    
       <Foot />
 
