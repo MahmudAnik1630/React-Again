@@ -11,6 +11,7 @@ import TernaryIfElse from './component/TernaryIfElse';
 import LogicalAndAnd from './component/LogicalAndAnd';
 import Props from './component/Props';
 import PropsObj from './component/PropsObj';
+import PropFunction from './component/PropFunction';
 
 
 
@@ -22,6 +23,12 @@ function App() {
     Age : 25,
     City: 'Dhaka'
   }
+
+  const btnclick= ()=>{
+    alert("Button Clicked");
+  }
+
+
   return (
     <div className="App">
       <Head /> 
@@ -35,6 +42,7 @@ function App() {
 
     <Props title ="Props" from="Parent" />
     <PropsObj item={propObj}/>
+    <PropFunction btnclicked={btnclick}/>
    
       <Foot />
 
