@@ -8,6 +8,7 @@ import ImmidietFunction from './component/ImmidietFunction';
 import Loop from './component/Loop';
 import LoginStatus from './component/LoginStatus';
 import TernaryIfElse from './component/TernaryIfElse';
+import LogicalAndAnd from './component/LogicalAndAnd';
 
 
 
@@ -20,8 +21,9 @@ function App() {
     <ImmidietFunction />
     <Loop />
     <LoginStatus />
-
-    <TernaryIfElse />
+     <TernaryIfElse />
+    <LogicalAndAnd />
+   
       <Foot />
 
     </div>
