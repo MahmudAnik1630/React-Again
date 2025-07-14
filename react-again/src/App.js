@@ -10,10 +10,18 @@ import LoginStatus from './component/LoginStatus';
 import TernaryIfElse from './component/TernaryIfElse';
 import LogicalAndAnd from './component/LogicalAndAnd';
 import Props from './component/Props';
+import PropsObj from './component/PropsObj';
 
 
 
 function App() {
+
+
+  const propObj={
+    Name : 'Anik',
+    Age : 25,
+    City: 'Dhaka'
+  }
   return (
     <div className="App">
       <Head /> 
@@ -26,6 +34,7 @@ function App() {
     <LogicalAndAnd />
 
     <Props title ="Props" from="Parent" />
+    <PropsObj item={propObj}/>
    
       <Foot />
 
