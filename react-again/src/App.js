@@ -6,6 +6,7 @@ import Body from './component/Body';
 import IfElse from './IfElse';
 import ImmidietFunction from './component/ImmidietFunction';
 import Loop from './component/Loop';
+import LoginStatus from './component/LoginStatus';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <IfElse />
     <ImmidietFunction />
     <Loop />
+    <LoginStatus />
       <Foot />
     </div>
   );

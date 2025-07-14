@@ -109,4 +109,22 @@ code {
   text-decoration: underline;
   text-decoration-color: #076c87;
 }
+.login ,.logout {
+    background-color: #076c87; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 30%;
+}
+
+.login:hover , .logout:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
   
