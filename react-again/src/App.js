@@ -12,6 +12,8 @@ import LogicalAndAnd from './component/LogicalAndAnd';
 import Props from './component/Props';
 import PropsObj from './component/PropsObj';
 import PropFunction from './component/PropFunction';
+import OnClickEvent from './component/OnClickEvent';
+import Form from './component/Form';
 
 
 
@@ -43,6 +45,8 @@ function App() {
     <Props title ="Props" from="Parent" />
     <PropsObj item={propObj}/>
     <PropFunction btnclicked={btnclick}/>
+    <OnClickEvent />
+    <Form />
    
       <Foot />
 
