@@ -14,6 +14,7 @@ import PropsObj from './component/PropsObj';
 import PropFunction from './component/PropFunction';
 import OnClickEvent from './component/OnClickEvent';
 import Form from './component/Form';
+import UseRef from './component/UseRef';
 
 
 
@@ -47,6 +48,7 @@ function App() {
     <PropFunction btnclicked={btnclick}/>
     <OnClickEvent />
     <Form />
+    <UseRef />
    
       <Foot />
 
