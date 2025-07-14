@@ -5,6 +5,7 @@ import Foot from './component/Foot';
 import Body from './component/Body';
 import IfElse from './IfElse';
 import ImmidietFunction from './component/ImmidietFunction';
+import Loop from './component/Loop';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Body />
     <IfElse />
     <ImmidietFunction />
+    <Loop />
       <Foot />
     </div>
   );
