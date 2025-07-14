@@ -7,6 +7,7 @@ import IfElse from './IfElse';
 import ImmidietFunction from './component/ImmidietFunction';
 import Loop from './component/Loop';
 import LoginStatus from './component/LoginStatus';
+import TernaryIfElse from './component/TernaryIfElse';
 
 
 
@@ -19,7 +20,10 @@ function App() {
     <ImmidietFunction />
     <Loop />
     <LoginStatus />
+
+    <TernaryIfElse />
       <Foot />
+
     </div>
   );
 }
