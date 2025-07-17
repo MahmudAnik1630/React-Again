@@ -20,6 +20,7 @@ import UseRefInput from './component/UseRefInput';
 import ChangeClass from './component/ChangeClass';
 import MutableValueChangeUseRef from './component/MutableValueChangeUseRef';
 import UseRefPersistMutuable from './component/UseRefPersistMutuable';
+import UseState from './component/UseState';
 
 
 
@@ -59,6 +60,7 @@ function App() {
     <ChangeClass />
     <MutableValueChangeUseRef />
     <UseRefPersistMutuable />
+    <UseState />
    
       <Foot />
 
