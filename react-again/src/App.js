@@ -21,6 +21,7 @@ import ChangeClass from './component/ChangeClass';
 import MutableValueChangeUseRef from './component/MutableValueChangeUseRef';
 import UseRefPersistMutuable from './component/UseRefPersistMutuable';
 import UseState from './component/UseState';
+import SpreadOperatorUseState from './component/SpreadOperatorUseState';
 
 
 
@@ -61,6 +62,7 @@ function App() {
     <MutableValueChangeUseRef />
     <UseRefPersistMutuable />
     <UseState />
+    <SpreadOperatorUseState />
    
       <Foot />
 
