@@ -5,6 +5,8 @@ function UserefImage() {
 
   const changeimg = () => {
     myimg.current.src = "https://placehold.co/600x400";
+    myimg.current.setAttribute('height', '200');
+    myimg.current.setAttribute('width', '300');
   };
 
   return (

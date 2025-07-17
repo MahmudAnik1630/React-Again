@@ -132,6 +132,14 @@ code {
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
+   
+}
+.formm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border: 1px solid #ccc;
 }
 
 .input {

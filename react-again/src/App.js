@@ -16,6 +16,9 @@ import OnClickEvent from './component/OnClickEvent';
 import Form from './component/Form';
 import UseRef from './component/UseRef';
 import UserefImage from './component/UserefImage';
+import UseRefInput from './component/UseRefInput';
+import ChangeClass from './component/ChangeClass';
+import MutableValueChangeUseRef from './component/MutableValueChangeUseRef';
 
 
 
@@ -51,6 +54,9 @@ function App() {
     <Form />
     <UseRef />
     <UserefImage />
+    <UseRefInput />
+    <ChangeClass />
+    <MutableValueChangeUseRef />
    
       <Foot />
 
