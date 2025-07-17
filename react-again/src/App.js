@@ -15,6 +15,7 @@ import PropFunction from './component/PropFunction';
 import OnClickEvent from './component/OnClickEvent';
 import Form from './component/Form';
 import UseRef from './component/UseRef';
+import UserefImage from './component/UserefImage';
 
 
 
@@ -49,6 +50,7 @@ function App() {
     <OnClickEvent />
     <Form />
     <UseRef />
+    <UserefImage />
    
       <Foot />
 
