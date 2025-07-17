@@ -19,6 +19,7 @@ import UserefImage from './component/UserefImage';
 import UseRefInput from './component/UseRefInput';
 import ChangeClass from './component/ChangeClass';
 import MutableValueChangeUseRef from './component/MutableValueChangeUseRef';
+import UseRefPersistMutuable from './component/UseRefPersistMutuable';
 
 
 
@@ -57,6 +58,7 @@ function App() {
     <UseRefInput />
     <ChangeClass />
     <MutableValueChangeUseRef />
+    <UseRefPersistMutuable />
    
       <Foot />
 
