@@ -24,6 +24,7 @@ import UseState from './component/UseState';
 import SpreadOperatorUseState from './component/SpreadOperatorUseState';
 import SimpleForm from './component/SimpleForm';
 import ComplexForm from './component/ComplexForm';
+import UseEffect from './component/UseEffect';
 
 
 
@@ -67,6 +68,7 @@ function App() {
     <SpreadOperatorUseState />
     <SimpleForm />
      <ComplexForm />
+     <UseEffect />
    
       <Foot />
 
