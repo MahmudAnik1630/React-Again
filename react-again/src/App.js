@@ -23,6 +23,7 @@ import UseRefPersistMutuable from './component/UseRefPersistMutuable';
 import UseState from './component/UseState';
 import SpreadOperatorUseState from './component/SpreadOperatorUseState';
 import SimpleForm from './component/SimpleForm';
+import ComplexForm from './component/ComplexForm';
 
 
 
@@ -64,8 +65,8 @@ function App() {
     <UseRefPersistMutuable />
     <UseState />
     <SpreadOperatorUseState />
-    
     <SimpleForm />
+     <ComplexForm />
    
       <Foot />
 
