@@ -25,6 +25,8 @@ import SpreadOperatorUseState from './component/SpreadOperatorUseState';
 import SimpleForm from './component/SimpleForm';
 import ComplexForm from './component/ComplexForm';
 import UseEffect from './component/UseEffect';
+import UseEffectAPICall from './component/UseEffectAPICall';
+import UseEffectAsyncAwait from './component/UseEffectAsyncAwait';
 
 
 
@@ -69,6 +71,9 @@ function App() {
     <SimpleForm />
      <ComplexForm />
      <UseEffect />
+     <UseEffectAPICall />
+     <UseEffectAsyncAwait />
+   
    
       <Foot />
 
